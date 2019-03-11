@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mountain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:text="Bookmark"
+            android:textColor="@android:color/white"
+            android:textSize="28sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:focusable="true">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="170dp"
+            android:layout_height="120dp"
+            android:layout_margin="10dp">
+            <ImageView
+                android:id="@+id/gambar_anakyatim"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/child"
+                android:contentDescription="TODO" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:layout_marginStart="39dp"
+                android:text="Anak Yatim"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="54dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="33dp"
+                android:layout_marginStart="42dp"
+                android:text="Terdapat 12 Ayat"
+                android:textColor="@color/yellowMonkey"
+                android:textSize="11sp"
+                tools:layout_editor_absoluteX="54dp"
+                tools:layout_editor_absoluteY="40dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="50dp"
+                android:text="2 menit yang lalu"
+                android:textColor="@android:color/background_light"
+                android:textSize="8sp"
+                tools:layout_editor_absoluteX="70dp"
+                tools:layout_editor_absoluteY="123dp" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:layout_margin="10dp">
+            <ImageView
+                android:id="@+id/gambar_hijrah"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/person"
+                android:contentDescription="TODO" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:layout_marginStart="60dp"
+                android:text="Hijrah"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="54dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="33dp"
+                android:layout_marginLeft="42dp"
+                android:text="Terdapat 8 Ayat"
+                android:textColor="@color/yellowMonkey"
+                android:textSize="11sp"
+                tools:layout_editor_absoluteX="54dp"
+                tools:layout_editor_absoluteY="40dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="50dp"
+                android:text="14 menit yang lalu"
+                android:textColor="@android:color/background_light"
+                android:textSize="8sp"
+                tools:layout_editor_absoluteX="70dp"
+                tools:layout_editor_absoluteY="123dp" />
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:focusable="true">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="170dp"
+            android:layout_height="120dp"
+            android:layout_margin="10dp">
+            <ImageView
+                android:id="@+id/gambar_poligami"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/womens"
+                android:contentDescription="TODO" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:layout_marginStart="50dp"
+                android:text="Poligami"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="54dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="33dp"
+                android:layout_marginLeft="42dp"
+                android:text="Terdapat 4 Ayat"
+                android:textColor="@color/yellowMonkey"
+                android:textSize="11sp"
+                tools:layout_editor_absoluteX="54dp"
+                tools:layout_editor_absoluteY="40dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="55dp"
+                android:text="2 jam yang lalu"
+                android:textColor="@android:color/background_light"
+                android:textSize="8sp"
+                tools:layout_editor_absoluteX="70dp"
+                tools:layout_editor_absoluteY="123dp" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="170dp"
+            android:layout_height="120dp"
+            android:layout_margin="10dp">
+            <ImageView
+                android:id="@+id/gambar_orangtua"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/parents"
+                android:contentDescription="TODO" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:layout_marginStart="45dp"
+                android:text="Orang Tua"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="54dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="33dp"
+                android:layout_marginLeft="42dp"
+                android:text="Terdapat 17 Ayat"
+                android:textColor="@color/yellowMonkey"
+                android:textSize="11sp"
+                tools:layout_editor_absoluteX="54dp"
+                tools:layout_editor_absoluteY="40dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="60dp"
+                android:text="1 hari yang lalu"
+                android:textColor="@android:color/background_light"
+                android:textSize="8sp"
+                tools:layout_editor_absoluteX="70dp"
+                tools:layout_editor_absoluteY="123dp" />
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:focusable="true">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="170dp"
+            android:layout_height="120dp"
+            android:layout_margin="10dp">
+            <ImageView
+                android:id="@+id/gambar_surga"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/nature"
+                android:contentDescription="TODO" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:layout_marginStart="60dp"
+                android:text="Surga"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="54dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="33dp"
+                android:layout_marginLeft="42dp"
+                android:text="Terdapat 28 Ayat"
+                android:textColor="@color/yellowMonkey"
+                android:textSize="11sp"
+                tools:layout_editor_absoluteX="54dp"
+                tools:layout_editor_absoluteY="40dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="95dp"
+                android:layout_marginLeft="55dp"
+                android:text="2 hari yang lalu"
+                android:textColor="@android:color/background_light"
+                android:textSize="8sp"
+                tools:layout_editor_absoluteX="70dp"
+                tools:layout_editor_absoluteY="123dp" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="170dp"
+            android:layout_height="120dp"
+            android:layout_margin="10dp">
+            <ImageView
+                android:id="@+id/gambar_riba"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/riba"
+                android:contentDescription="TODO" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:layout_marginStart="45dp"
+                android:text="Harta Riba"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="54dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="33dp"
+                android:layout_marginLeft="42dp"
+                android:text="Terdapat 9 Ayat"
+                android:textColor="@color/yellowMonkey"
+                android:textSize="11sp"
+                tools:layout_editor_absoluteX="54dp"
+                tools:layout_editor_absoluteY="40dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="50dp"
+                android:text="1 minggu yang lalu"
+                android:textColor="@android:color/background_light"
+                android:textSize="8sp"
+                tools:layout_editor_absoluteX="70dp"
+                tools:layout_editor_absoluteY="123dp" />
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
